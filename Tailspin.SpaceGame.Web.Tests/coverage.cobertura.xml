@@ -1,0 +1,1200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.144" branch-rate="0" version="1.9" timestamp="1568290036" lines-covered="31" lines-valid="216" branches-covered="0" branches-valid="205">
+  <sources>
+    <source></source>
+  </sources>
+  <packages>
+    <package name="Tailspin.SpaceGame.Web" line-rate="0.115" branch-rate="0" complexity="62">
+      <classes>
+        <class name="TailSpin.SpaceGame.Web.LocalDocumentDBRepository`1" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\LocalDocumentDBRepository.cs" line-rate="0.556" branch-rate="1" complexity="5">
+          <methods>
+            <method name="GetItemAsync" signature="(System.String)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetItemsAsync" signature="(System.Linq.Expressions.Expression`1&lt;System.Func`2&lt;T,System.Boolean&gt;&gt;,System.Linq.Expressions.Expression`1&lt;System.Func`2&lt;T,System.Int32&gt;&gt;,System.Int32,System.Int32)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="60" hits="5" branch="False" />
+                <line number="61" hits="5" branch="False" />
+                <line number="62" hits="5" branch="False" />
+                <line number="63" hits="5" branch="False" />
+                <line number="64" hits="5" branch="False" />
+                <line number="65" hits="5" branch="False" />
+                <line number="67" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="CountItemsAsync" signature="(System.Linq.Expressions.Expression`1&lt;System.Func`2&lt;T,System.Boolean&gt;&gt;)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="84" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.IO.Stream)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="23" hits="5" branch="False" />
+                <line number="26" hits="5" branch="False" />
+                <line number="27" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="39" hits="0" branch="False" />
+            <line number="60" hits="5" branch="False" />
+            <line number="61" hits="5" branch="False" />
+            <line number="62" hits="5" branch="False" />
+            <line number="63" hits="5" branch="False" />
+            <line number="64" hits="5" branch="False" />
+            <line number="65" hits="5" branch="False" />
+            <line number="67" hits="5" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="84" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="23" hits="5" branch="False" />
+            <line number="26" hits="5" branch="False" />
+            <line number="27" hits="5" branch="False" />
+          </lines>
+        </class>
+        <class name="TailSpin.SpaceGame.Web.Program" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Program.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="CreateWebHostBuilder" signature="(System.String[])" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="TailSpin.SpaceGame.Web.Startup" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Startup.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="get_Configuration" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="ConfigureServices" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Configure" signature="(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="40" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="54" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="64" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.Extensions.Configuration.IConfiguration)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="0" branch="False" />
+            <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="40" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="6" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="54" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="64" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="TailSpin.SpaceGame.Web.Startup/&lt;&gt;c" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Startup.cs" line-rate="1" branch-rate="0" complexity="2">
+          <methods />
+          <lines />
+        </class>
+        <class name="TailSpin.SpaceGame.Web.Models.ErrorViewModel" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Models\ErrorViewModel.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_RequestId" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ShowRequestId" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="False" />
+            <line number="7" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="TailSpin.SpaceGame.Web.Models.LeaderboardViewModel" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Models\LeaderboardViewModel.cs" line-rate="0" branch-rate="1" complexity="10">
+          <methods>
+            <method name="get_SelectedMode" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SelectedRegion" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Page" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PageSize" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Scores" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_GameModes" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_GameRegions" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PrevLink" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="25" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_NextLink" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="28" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TotalResults" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="30" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="TailSpin.SpaceGame.Web.Models.Model" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Models\Model.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="12" hits="125" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="125" branch="False" />
+          </lines>
+        </class>
+        <class name="TailSpin.SpaceGame.Web.Models.Profile" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Models\Profile.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_UserName" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AvatarUrl" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Achievements" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="TailSpin.SpaceGame.Web.Models.Score" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Models\Score.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_ProfileId" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="9" hits="125" branch="False" />
+              </lines>
+            </method>
+            <method name="get_HighScore" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="13" hits="125" branch="False" />
+              </lines>
+            </method>
+            <method name="get_GameMode" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="17" hits="125" branch="False" />
+              </lines>
+            </method>
+            <method name="get_GameRegion" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="21" hits="271" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="125" branch="False" />
+            <line number="13" hits="125" branch="False" />
+            <line number="17" hits="125" branch="False" />
+            <line number="21" hits="271" branch="False" />
+          </lines>
+        </class>
+        <class name="TailSpin.SpaceGame.Web.Controllers.HomeController" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Controllers\HomeController.cs" line-rate="0" branch-rate="0" complexity="6">
+          <methods>
+            <method name="Privacy" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="130" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Error" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="136" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="25" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name=".ctor" signature="(TailSpin.SpaceGame.Web.IDocumentDBRepository`1&lt;TailSpin.SpaceGame.Web.Models.Score&gt;,TailSpin.SpaceGame.Web.IDocumentDBRepository`1&lt;TailSpin.SpaceGame.Web.Models.Profile&gt;)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="130" hits="0" branch="False" />
+            <line number="136" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="25" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="TailSpin.SpaceGame.Web.Controllers.HomeController/&lt;&gt;c" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Controllers\HomeController.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;Index&gt;b__3_2" signature="(TailSpin.SpaceGame.Web.Models.Score,System.Threading.Tasks.Task`1&lt;TailSpin.SpaceGame.Web.Models.Profile&gt;)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="104" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="104" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="TailSpin.SpaceGame.Web.Controllers.HomeController/&lt;Index&gt;d__3" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Controllers\HomeController.cs" line-rate="0" branch-rate="0" complexity="16">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="36" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="247" type="jump" coverage="0%" />
+                    <condition number="254" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="74" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="689" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+                <line number="82" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="805" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="85" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="908" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="87" hits="0" branch="False" />
+                <line number="89" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="1019" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="91" hits="0" branch="False" />
+                <line number="96" hits="0" branch="False" />
+                <line number="97" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="1169" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="99" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="108" hits="0" branch="False" />
+                <line number="110" hits="0" branch="False" />
+                <line number="112" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="36" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="247" type="jump" coverage="0%" />
+                <condition number="254" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="74" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="689" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="82" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="805" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="85" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="908" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="87" hits="0" branch="False" />
+            <line number="89" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="1019" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="91" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="97" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="1169" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="99" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="108" hits="0" branch="False" />
+            <line number="110" hits="0" branch="False" />
+            <line number="112" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="TailSpin.SpaceGame.Web.Controllers.HomeController/&lt;Profile&gt;d__4" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Controllers\HomeController.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="120" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="62" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="122" hits="0" branch="False" />
+                <line number="124" hits="0" branch="False" />
+                <line number="126" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="120" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="62" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="122" hits="0" branch="False" />
+            <line number="124" hits="0" branch="False" />
+            <line number="126" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Tailspin.SpaceGame.Web.Tests" line-rate="0.941" branch-rate="1" complexity="3">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\obj\Release\netcoreapp2.1\Tailspin.SpaceGame.Web.Tests.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Tests.DocumentDBRepository_GetItemsAsyncShould" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\DocumentDBRepository_GetItemsAsyncShould.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="19" hits="5" branch="False" />
+                <line number="20" hits="5" branch="False" />
+                <line number="21" hits="5" branch="False" />
+                <line number="23" hits="5" branch="False" />
+                <line number="24" hits="5" branch="False" />
+                <line number="25" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="FetchOnlyRequestedGameRegion" signature="(System.String)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="39" hits="5" branch="False" />
+                <line number="42" hits="5" branch="False" />
+                <line number="43" hits="5" branch="False" />
+                <line number="44" hits="5" branch="False" />
+                <line number="45" hits="5" branch="False" />
+                <line number="46" hits="5" branch="False" />
+                <line number="47" hits="5" branch="False" />
+                <line number="48" hits="5" branch="False" />
+                <line number="51" hits="26" branch="False" />
+                <line number="52" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="5" branch="False" />
+            <line number="20" hits="5" branch="False" />
+            <line number="21" hits="5" branch="False" />
+            <line number="23" hits="5" branch="False" />
+            <line number="24" hits="5" branch="False" />
+            <line number="25" hits="5" branch="False" />
+            <line number="39" hits="5" branch="False" />
+            <line number="42" hits="5" branch="False" />
+            <line number="43" hits="5" branch="False" />
+            <line number="44" hits="5" branch="False" />
+            <line number="45" hits="5" branch="False" />
+            <line number="46" hits="5" branch="False" />
+            <line number="47" hits="5" branch="False" />
+            <line number="48" hits="5" branch="False" />
+            <line number="51" hits="26" branch="False" />
+            <line number="52" hits="5" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Tailspin.SpaceGame.Web.Views" line-rate="0" branch-rate="0" complexity="179">
+      <classes>
+        <class name="AspNetCore.Views_Home_Index/&lt;ExecuteAsync&gt;d__8" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Home\Index.cshtml" line-rate="0" branch-rate="0" complexity="38">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="3" hits="0" branch="False" />
+                <line number="57" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="100" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="190" type="jump" coverage="0%" />
+                    <condition number="1456" type="jump" coverage="0%" />
+                    <condition number="197" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="67" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="377" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="71" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="597" type="jump" coverage="0%" />
+                    <condition number="687" type="jump" coverage="0%" />
+                    <condition number="714" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="84" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="94" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="1541" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="97" hits="0" branch="False" />
+                <line number="100" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="104" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="1792" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="106" hits="0" branch="False" />
+                <line number="109" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="2223" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="111" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="1893" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="112" hits="0" branch="False" />
+                <line number="113" hits="0" branch="False" />
+                <line number="119" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="2275" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="122" hits="0" branch="False" />
+                <line number="125" hits="0" branch="False" />
+                <line number="136" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="2498" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="139" hits="0" branch="False" />
+                <line number="143" hits="0" branch="False" />
+                <line number="147" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="3214" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="149" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="2810" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="151" hits="0" branch="False" />
+                <line number="152" hits="0" branch="False" />
+                <line number="155" hits="0" branch="False" />
+                <line number="165" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="3287" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="168" hits="0" branch="False" />
+                <line number="171" hits="0" branch="False" />
+                <line number="175" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="4001" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="177" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="3597" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="179" hits="0" branch="False" />
+                <line number="180" hits="0" branch="False" />
+                <line number="183" hits="0" branch="False" />
+                <line number="211" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="False" />
+            <line number="57" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="100" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="190" type="jump" coverage="0%" />
+                <condition number="1456" type="jump" coverage="0%" />
+                <condition number="197" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="67" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="377" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="71" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="597" type="jump" coverage="0%" />
+                <condition number="687" type="jump" coverage="0%" />
+                <condition number="714" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="84" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="94" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="1541" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="97" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="104" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="1792" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="106" hits="0" branch="False" />
+            <line number="109" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="2223" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="111" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="1893" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="112" hits="0" branch="False" />
+            <line number="113" hits="0" branch="False" />
+            <line number="119" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="2275" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="122" hits="0" branch="False" />
+            <line number="125" hits="0" branch="False" />
+            <line number="136" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="2498" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="139" hits="0" branch="False" />
+            <line number="143" hits="0" branch="False" />
+            <line number="147" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="3214" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="149" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="2810" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="151" hits="0" branch="False" />
+            <line number="152" hits="0" branch="False" />
+            <line number="155" hits="0" branch="False" />
+            <line number="165" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="3287" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="168" hits="0" branch="False" />
+            <line number="171" hits="0" branch="False" />
+            <line number="175" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="4001" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="177" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="3597" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="179" hits="0" branch="False" />
+            <line number="180" hits="0" branch="False" />
+            <line number="183" hits="0" branch="False" />
+            <line number="211" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Home_Privacy/&lt;ExecuteAsync&gt;d__0" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Home\Privacy.cshtml" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="2" hits="0" branch="False" />
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="0" branch="False" />
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Home_Profile/&lt;ExecuteAsync&gt;d__0" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Home\Profile.cshtml" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="3" hits="0" branch="False" />
+                <line number="5" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="False" />
+            <line number="5" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared_Error/&lt;ExecuteAsync&gt;d__0" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Shared\Error.cshtml" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="3" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__CookieConsentPartial/&lt;ExecuteAsync&gt;d__10" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Shared\_CookieConsentPartial.cshtml" line-rate="0" branch-rate="0" complexity="14">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="4" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="22" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="5" hits="0" branch="False" />
+                <line number="6" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="72" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="7" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="89" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="10" hits="0" branch="True" condition-coverage="0% (0/8)">
+                  <conditions>
+                    <condition number="136" type="jump" coverage="0%" />
+                    <condition number="389" type="jump" coverage="0%" />
+                    <condition number="479" type="jump" coverage="0%" />
+                    <condition number="506" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="29" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="22" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="5" hits="0" branch="False" />
+            <line number="6" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="72" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="7" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="89" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="10" hits="0" branch="True" condition-coverage="0% (0/8)">
+              <conditions>
+                <condition number="136" type="jump" coverage="0%" />
+                <condition number="389" type="jump" coverage="0%" />
+                <condition number="479" type="jump" coverage="0%" />
+                <condition number="506" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="29" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__38_3&gt;d" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="21">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="16" hits="0" branch="True" condition-coverage="0% (0/21)">
+                  <conditions>
+                    <condition number="15" type="switch" coverage="0%" />
+                    <condition number="108" type="jump" coverage="0%" />
+                    <condition number="428" type="jump" coverage="0%" />
+                    <condition number="516" type="jump" coverage="0%" />
+                    <condition number="542" type="jump" coverage="0%" />
+                    <condition number="723" type="jump" coverage="0%" />
+                    <condition number="955" type="jump" coverage="0%" />
+                    <condition number="1045" type="jump" coverage="0%" />
+                    <condition number="1072" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="True" condition-coverage="0% (0/21)">
+              <conditions>
+                <condition number="15" type="switch" coverage="0%" />
+                <condition number="108" type="jump" coverage="0%" />
+                <condition number="428" type="jump" coverage="0%" />
+                <condition number="516" type="jump" coverage="0%" />
+                <condition number="542" type="jump" coverage="0%" />
+                <condition number="723" type="jump" coverage="0%" />
+                <condition number="955" type="jump" coverage="0%" />
+                <condition number="1045" type="jump" coverage="0%" />
+                <condition number="1072" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__38_0&gt;d" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="17">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="6" hits="0" branch="True" condition-coverage="0% (0/17)">
+                  <conditions>
+                    <condition number="15" type="switch" coverage="0%" />
+                    <condition number="298" type="jump" coverage="0%" />
+                    <condition number="386" type="jump" coverage="0%" />
+                    <condition number="412" type="jump" coverage="0%" />
+                    <condition number="714" type="jump" coverage="0%" />
+                    <condition number="804" type="jump" coverage="0%" />
+                    <condition number="831" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="0" branch="True" condition-coverage="0% (0/17)">
+              <conditions>
+                <condition number="15" type="switch" coverage="0%" />
+                <condition number="298" type="jump" coverage="0%" />
+                <condition number="386" type="jump" coverage="0%" />
+                <condition number="412" type="jump" coverage="0%" />
+                <condition number="714" type="jump" coverage="0%" />
+                <condition number="804" type="jump" coverage="0%" />
+                <condition number="831" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__38_9&gt;d" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="31">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="31" hits="0" branch="True" condition-coverage="0% (0/31)">
+                  <conditions>
+                    <condition number="15" type="switch" coverage="0%" />
+                    <condition number="113" type="jump" coverage="0%" />
+                    <condition number="223" type="jump" coverage="0%" />
+                    <condition number="311" type="jump" coverage="0%" />
+                    <condition number="337" type="jump" coverage="0%" />
+                    <condition number="518" type="jump" coverage="0%" />
+                    <condition number="629" type="jump" coverage="0%" />
+                    <condition number="719" type="jump" coverage="0%" />
+                    <condition number="746" type="jump" coverage="0%" />
+                    <condition number="929" type="jump" coverage="0%" />
+                    <condition number="1145" type="jump" coverage="0%" />
+                    <condition number="1235" type="jump" coverage="0%" />
+                    <condition number="1262" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="31" hits="0" branch="True" condition-coverage="0% (0/31)">
+              <conditions>
+                <condition number="15" type="switch" coverage="0%" />
+                <condition number="113" type="jump" coverage="0%" />
+                <condition number="223" type="jump" coverage="0%" />
+                <condition number="311" type="jump" coverage="0%" />
+                <condition number="337" type="jump" coverage="0%" />
+                <condition number="518" type="jump" coverage="0%" />
+                <condition number="629" type="jump" coverage="0%" />
+                <condition number="719" type="jump" coverage="0%" />
+                <condition number="746" type="jump" coverage="0%" />
+                <condition number="929" type="jump" coverage="0%" />
+                <condition number="1145" type="jump" coverage="0%" />
+                <condition number="1235" type="jump" coverage="0%" />
+                <condition number="1262" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__38_10&gt;d" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="27">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="46" hits="0" branch="True" condition-coverage="0% (0/27)">
+                  <conditions>
+                    <condition number="15" type="switch" coverage="0%" />
+                    <condition number="349" type="jump" coverage="0%" />
+                    <condition number="437" type="jump" coverage="0%" />
+                    <condition number="463" type="jump" coverage="0%" />
+                    <condition number="881" type="jump" coverage="0%" />
+                    <condition number="971" type="jump" coverage="0%" />
+                    <condition number="998" type="jump" coverage="0%" />
+                    <condition number="1181" type="jump" coverage="0%" />
+                    <condition number="1397" type="jump" coverage="0%" />
+                    <condition number="1487" type="jump" coverage="0%" />
+                    <condition number="1514" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="46" hits="0" branch="True" condition-coverage="0% (0/27)">
+              <conditions>
+                <condition number="15" type="switch" coverage="0%" />
+                <condition number="349" type="jump" coverage="0%" />
+                <condition number="437" type="jump" coverage="0%" />
+                <condition number="463" type="jump" coverage="0%" />
+                <condition number="881" type="jump" coverage="0%" />
+                <condition number="971" type="jump" coverage="0%" />
+                <condition number="998" type="jump" coverage="0%" />
+                <condition number="1181" type="jump" coverage="0%" />
+                <condition number="1397" type="jump" coverage="0%" />
+                <condition number="1487" type="jump" coverage="0%" />
+                <condition number="1514" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__Layout/&lt;&lt;ExecuteAsync&gt;b__38_1&gt;d" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="27">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0">
+              <lines>
+                <line number="24" hits="0" branch="True" condition-coverage="0% (0/27)">
+                  <conditions>
+                    <condition number="15" type="switch" coverage="0%" />
+                    <condition number="113" type="jump" coverage="0%" />
+                    <condition number="249" type="jump" coverage="0%" />
+                    <condition number="337" type="jump" coverage="0%" />
+                    <condition number="363" type="jump" coverage="0%" />
+                    <condition number="728" type="jump" coverage="0%" />
+                    <condition number="818" type="jump" coverage="0%" />
+                    <condition number="845" type="jump" coverage="0%" />
+                    <condition number="1149" type="jump" coverage="0%" />
+                    <condition number="1239" type="jump" coverage="0%" />
+                    <condition number="1266" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="49" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="0" branch="True" condition-coverage="0% (0/27)">
+              <conditions>
+                <condition number="15" type="switch" coverage="0%" />
+                <condition number="113" type="jump" coverage="0%" />
+                <condition number="249" type="jump" coverage="0%" />
+                <condition number="337" type="jump" coverage="0%" />
+                <condition number="363" type="jump" coverage="0%" />
+                <condition number="728" type="jump" coverage="0%" />
+                <condition number="818" type="jump" coverage="0%" />
+                <condition number="845" type="jump" coverage="0%" />
+                <condition number="1149" type="jump" coverage="0%" />
+                <condition number="1239" type="jump" coverage="0%" />
+                <condition number="1266" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="49" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views__ViewStart/&lt;ExecuteAsync&gt;d__0" filename="C:\Users\RORY\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web\Views\_ViewStart.cshtml" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="2" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
